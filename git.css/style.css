@@ -1,0 +1,78 @@
+* { padding: 2
+
+;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1rem; height: 100%;
+}
+body, header, main, footer{
+    border: 3px red solid;
+    min-height: 50px;
+    margin:0,5rem;
+    min-width: 400px;
+}
+body{ background-color: aquamarine;
+fond-family:"helvetica Neue",helvetica,arial,sans-serif;
+}
+main{
+    min-height: 200px;
+    overflow: auto;
+    background-color: aliceblue;
+    
+}header{
+    background: whitesmoke;
+    box-shadow: 005rem rgb(81, 67, 12);
+}
+ *contenido Ppal*
+main>div{
+    border: 2px blue solid;
+    min-height: 180px;
+    margin: o,5rem;height: auto;
+    float: left;
+    width: 65%;
+}
+main>aside{
+    border: 2px blueviolet solid;
+    min-height: 180px;
+    min-height: 25%;
+    margin: o,5rem;
+    float: left;
+    width: auto;
+}
+.secciones {border:2px green solid;
+    min-height: 50px;
+margin: 0,5rem;
+}
+.secciones article{border:2px purple solid;
+margin: 0,5rem;min-height: 20px;}
+
+#gif-ppal{
+    width: 10%;
+}
+#imagen1{width: 10%;
+}
+/* menu*/
+.header-menubar ul {
+    margin: 0.5;
+}
+.header-menubar ul {
+    list-style: none;
+}
+.header-menu li {
+    float: left;
+    font-weight: 700;
+    text-align: center
+    margin  0 0.5;
+}
+.header-menubar a{
+    text-decoration:none
+    color black;
+}
+.header-menubar a:hover {
+    color: blueviolet;
+}
+.header-menubar li a{
+    font-size: 1.2rem;
+    background: transparent;
+}
